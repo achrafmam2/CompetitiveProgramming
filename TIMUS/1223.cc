@@ -1,5 +1,5 @@
 /// Chernobyl’ Eagle on a Roof
-/// Notice that the number of experiments does not get better if we have more than
+/// Notice that the optimal number of experiments don't get better if we have more than
 /// `ceil(log_2(n)) + 1` — by using a binary search strategy.
 /// We calculate the optimal number of experiments using the reccurence:
 ///                         | 0, if height = 0
