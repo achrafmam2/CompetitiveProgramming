@@ -1,5 +1,10 @@
 /// Councilling
-/// Build a network where the the maximum flow is equal to the number of assigned numbers.
+/// Build a network where the the maximum flow is equal to the number of assigned members.
+/// A possible network model can look as follows:
+///   + (source -> club) with capacity 1,
+///   + (club -> member) with capacity 1 where `member` is part of `club`,
+///   + (member -> party) with capacity 1 where `member` is part of `party`,
+///   + (party -> sink) with capacity `less than half of the number of clubs`.
 #include <vector>
 #include <queue>
 #include <cmath>
